@@ -1,0 +1,53 @@
+# OS/editor files
+.DS_Store
+__MACOSX/
+._*
+~$*
+.idea/
+.vscode/
+
+# Python/Jupyter environments and caches
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+kaggle.json
+.kaggle/
+.streamlit/secrets.toml
+*credentials*.json
+*.pem
+*.key
+
+# Local datasets and model binaries
+/data/*
+!/data/README.md
+/models/*
+!/models/README.md
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.h5
+*.hdf5
+*.dcm
+
+# Generated runs; curated figures belong in docs/figures
+/outputs/
+/results/
+/runs/
+/wandb/
+*.log
+
+# Submission archives and video recordings
+*.zip
+*.mov
+*.mp4

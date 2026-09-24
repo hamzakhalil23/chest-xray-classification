@@ -1,0 +1,14 @@
+# Draft based on main notebook + Milestone3 app imports.
+# Resolve and pin tested compatible versions before claiming reproducibility.
+torch
+torchvision
+timm
+numpy
+pandas
+scikit-learn
+Pillow
+matplotlib
+seaborn
+opencv-python-headless
+tqdm
+gradio
